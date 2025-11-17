@@ -43,6 +43,5 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/m324-refcard01:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/m324-refcard01:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/m324-refcard01:latest_
 
